@@ -1,0 +1,79 @@
+package com.example;
+
+import java.util.Scanner;
+
+
+public class games {
+
+  public static void main(String[] args) {
+  
+  int nilaiAcak1 ;
+         nilaiAcak1 = 20 + (int) (Math.random() * 25);
+ int nilaiAcak ;
+         nilaiAcak = 20 + (int) (Math.random() * 25);
+         int hasil;
+         hasil = nilaiAcak + nilaiAcak1;
+         int keyboard = -1;
+         System.out.printf(" %d + %d =?\n",nilaiAcak,nilaiAcak1);
+         Scanner userInput = new Scanner(System.in);
+         keyboard = userInput.nextInt();
+         
+         
+         if (keyboard >-1){
+         if ( hasil == keyboard ) {
+    //matematika 2
+         
+           nilaiAcak1 = 20 + (int) (Math.random() * 25);
+           nilaiAcak = 20 + (int) (Math.random() * 25);
+         
+         hasil = nilaiAcak + nilaiAcak1;
+         keyboard = -1;
+         System.out.printf(" %d + %d =?\n",nilaiAcak,nilaiAcak1);
+         if (hasil == keyboard) {
+           
+           
+           
+           System.out.print("kamu kalah");
+           
+           if(hasil == keyboard){
+             
+             
+                       nilaiAcak1 = 20 + (int) (Math.random() * 25);
+           nilaiAcak = 20 + (int) (Math.random() * 25);
+         
+         hasil = nilaiAcak + nilaiAcak1;
+         keyboard = -1;
+         System.out.printf(" %d + %d =?\n",nilaiAcak,nilaiAcak1);
+         if (hasil == keyboard) {}
+        else{
+          
+          
+          
+        }
+           
+           
+           
+           if(hasil == keyboard){
+             
+             System.out.print("kamu menang");
+             
+             
+         }  
+             
+           }
+           }
+           
+         } 
+         
+         
+ //kalah text
+         else{
+           
+           System.out.print("kamu kalah");
+           
+         }
+           
+           }
+  }
+
+
